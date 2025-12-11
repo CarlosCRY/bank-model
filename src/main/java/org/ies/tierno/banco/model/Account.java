@@ -10,7 +10,6 @@ public class Account {
     private String iban;
     private double balance;
     private Client client;
-    }
 
     public void showInfo() {
         System.out.println("\n" + iban + " asociada a " + client.getSurname() + ", " + client.getName() + ", con saldo: " + balance);
